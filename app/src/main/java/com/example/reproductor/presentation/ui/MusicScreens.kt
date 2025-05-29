@@ -38,7 +38,7 @@ import androidx.compose.material.icons.filled.Menu
 
 
 
-// Pantallas disponibles
+// Pantallas disponible
 enum class Screen {
     NOW_PLAYING,
     LIBRARY
