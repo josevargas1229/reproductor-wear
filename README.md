@@ -11,18 +11,18 @@
 
 Una aplicación de reproductor de música diseñada específicamente para smartwatches con Wear OS. Desarrollada con **Jetpack Compose** y siguiendo las mejores prácticas de diseño para wearables, permite controlar la reproducción de audio desde tu muñeca con una experiencia fluida e intuitiva.
 
-### 🎯 Objetivo del Proyecto
+### 🎯 Objetivo del proyecto
 
 Este proyecto forma parte de la asignatura **Desarrollo de dispositivos inteligentes** de la carrera **Ingeniería en Desarrollo y Gestión de Software** (Cuatrimestre 9, Grupo B) en la Universidad Tecnológica de la Huasteca Hidalguense, Huejutla, Hidalgo.
 
-## ✨ Características Principales
+## ✨ Características principales
 
-### 🧭 Navegación Intuitiva
+### 🧭 Navegación intuitiva
 - **Nivel 1**: Pantalla principal con controles de reproducción y estado de la canción actual
 - **Nivel 2**: Lista desplazable de canciones con opciones de selección y eliminación
 - Diseño simplificado que cumple con las guías de Wear OS
 
-### 🖐️ Interacciones Múltiples
+### 🖐️ Interacciones múltiples
 | Tipo | Acción | Función |
 |------|--------|---------|
 | **Gestos** | Giro de muñeca | Cambiar canciones |
@@ -32,18 +32,18 @@ Este proyecto forma parte de la asignatura **Desarrollo de dispositivos intelige
 | | Clic largo | Modo aleatorio |
 | **Táctil** | Botones en pantalla | Controles principales |
 
-### 🔄 Sincronización Remota
+### 🔄 Sincronización remota
 - Control de reproducción en teléfono Android mediante **Wearable Data Layer API**
 - Envío de comandos y recepción de metadatos en tiempo real
 - Eliminación de canciones desde el smartwatch
 
-### 🎨 Diseño y Accesibilidad
+### 🎨 Diseño y accesibilidad
 - ✅ Interfaz adaptable a pantallas redondas y cuadradas
 - ✅ Textos legibles (mínimo 16sp, alto contraste)
 - ✅ Íconos grandes (24dp) según guías WCAG 2.1
 - ✅ Arquitectura MVVM para código mantenible
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías utilizadas
 
 <table>
   <tr>
@@ -64,11 +64,11 @@ Este proyecto forma parte de la asignatura **Desarrollo de dispositivos intelige
   </tr>
   <tr>
     <td><strong>Sensores</strong></td>
-    <td>Acelerómetro, Giroscopio</td>
+    <td>Acelerómetro, giroscopio</td>
   </tr>
 </table>
 
-## 🚀 Instalación y Configuración
+## 🚀 Instalación y configuración
 
 ### Prerrequisitos
 - Android Studio (última versión)
@@ -77,7 +77,7 @@ Este proyecto forma parte de la asignatura **Desarrollo de dispositivos intelige
 - Smartwatch Wear OS o emulador
 - Registro en Google Pixel Watch
 
-### Pasos de Instalación
+### Pasos de instalación
 
 1. **Clonar el repositorio**
    ```bash
@@ -102,15 +102,15 @@ Este proyecto forma parte de la asignatura **Desarrollo de dispositivos intelige
    # Ejecutar en emulador o dispositivo
    ```
 
-## 📱 Guía de Uso
+## 📱 Guía de uso
 
-### Inicio Rápido
+### Inicio rápido
 1. **Lanzar aplicación** en tu smartwatch Wear OS
 2. **Pantalla principal** muestra canción actual y controles
 3. **Controlar reproducción** con gestos o botones táctiles
 4. **Gestionar canciones** deslizando a la lista
 
-### Controles Disponibles
+### Controles disponibles
 - 🎵 **Play/Pausa**: Toque en botón o agitar muñeca
 - ⏭️ **Siguiente/Anterior**: Giro de muñeca o botones en pantalla
 - 🔀 **Modo aleatorio**: Mantener presionado botón físico
@@ -133,13 +133,13 @@ Este proyecto forma parte de la asignatura **Desarrollo de dispositivos intelige
 4. **Push** a la rama: `git push origin feature/nueva-funcionalidad`
 5. **Crear Pull Request**
 
-### Áreas de Mejora
+### Áreas de mejora
 - [ ] Optimización de batería
 - [ ] Soporte para más formatos de audio
 - [ ] Mejoras en la interfaz de usuario
 - [ ] Tests automatizados
 
-## 👥 Equipo de Desarrollo
+## 👥 Equipo de desarrollo
 
 | Rol | Nombre |
 |-----|--------|
